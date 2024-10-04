@@ -93,6 +93,12 @@ export default defineNuxtConfig({
         userInfoUrl: 'https://api-m.sandbox.paypal.com/v1/identity/openidconnect/userinfo?schema=openid',
         redirectUri: 'http://127.0.0.1:3000/auth/paypal/callback',
       },
+      logto: {
+        baseUrl: 'http://localhost:3001',
+        clientId: '',
+        clientSecret: '',
+        redirectUri: 'https://localhost:3000/auth/logto/callback',
+      },
       microsoft: {
         clientId: '',
         clientSecret: '',

@@ -51,6 +51,12 @@ export function useProviders(currentProvider: string) {
       icon: 'i-simple-icons-paypal',
     },
     {
+      label: 'Logto',
+      name: 'logto',
+      disabled: Boolean(currentProvider === 'logto'),
+      icon: 'i-arcticons-netiq-advanced-authentication',
+    },
+    {
       label: 'Generic OIDC',
       name: 'oidc',
       disabled: Boolean(currentProvider === 'oidc'),
