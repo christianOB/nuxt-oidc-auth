@@ -110,6 +110,9 @@ importers:
       '@iconify-json/simple-icons':
         specifier: ^1.2.5
         version: 1.2.5
+      '@iconify-json/tabler':
+        specifier: ^1.2.4
+        version: 1.2.4
       '@nuxt/content':
         specifier: ^2.13.2
         version: 2.13.2(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.4)(eslint@9.11.1(jiti@2.1.2))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.0)(terser@5.34.1)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1))(vue-tsc@2.1.6(typescript@5.6.2))(webpack-sources@3.2.3))(rollup@4.24.0)(vue@3.5.11(typescript@5.6.2))(webpack-sources@3.2.3)
@@ -169,6 +172,9 @@ importers:
       '@iconify-json/simple-icons':
         specifier: ^1.2.3
         version: 1.2.5
+      '@iconify-json/tabler':
+        specifier: ^1.2.4
+        version: 1.2.4
       '@nuxtjs/color-mode':
         specifier: ^3.5.1
         version: 3.5.1(magicast@0.3.5)(rollup@4.24.0)(webpack-sources@3.2.3)
@@ -7919,7 +7925,7 @@ snapshots:
       tinyglobby: 0.2.9
       unimport: 3.13.1(rollup@4.24.0)(webpack-sources@3.2.3)
       vite: 5.4.8(@types/node@22.7.4)(terser@5.34.1)
-      vite-plugin-inspect: 0.8.7(@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@4.24.0)(webpack-sources@3.2.3))(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1))
+      vite-plugin-inspect: 0.8.7(@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@3.29.5)(webpack-sources@3.2.3))(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1))
       vite-plugin-vue-inspector: 5.1.3(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1))
       which: 3.0.1
       ws: 8.18.0
@@ -9465,7 +9471,7 @@ snapshots:
       '@unocss/reset': 0.62.4
       '@unocss/vite': 0.62.4(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1))
       '@unocss/webpack': 0.62.4(rollup@4.24.0)(webpack@5.95.0)
-      unocss: 0.62.4(@unocss/webpack@0.62.4(rollup@4.24.0)(webpack@5.95.0))(postcss@8.4.47)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1))
+      unocss: 0.62.4(@unocss/webpack@0.62.4(rollup@3.29.5)(webpack@5.95.0))(postcss@8.4.47)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1))
     transitivePeerDependencies:
       - magicast
       - postcss
@@ -14856,33 +14862,6 @@ snapshots:
       - rollup
       - supports-color
 
-  unocss@0.62.4(@unocss/webpack@0.62.4(rollup@4.24.0)(webpack@5.95.0))(postcss@8.4.47)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1)):
-    dependencies:
-      '@unocss/astro': 0.62.4(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1))
-      '@unocss/cli': 0.62.4(rollup@4.24.0)
-      '@unocss/core': 0.62.4
-      '@unocss/postcss': 0.62.4(postcss@8.4.47)
-      '@unocss/preset-attributify': 0.62.4
-      '@unocss/preset-icons': 0.62.4
-      '@unocss/preset-mini': 0.62.4
-      '@unocss/preset-tagify': 0.62.4
-      '@unocss/preset-typography': 0.62.4
-      '@unocss/preset-uno': 0.62.4
-      '@unocss/preset-web-fonts': 0.62.4
-      '@unocss/preset-wind': 0.62.4
-      '@unocss/transformer-attributify-jsx': 0.62.4
-      '@unocss/transformer-compile-class': 0.62.4
-      '@unocss/transformer-directives': 0.62.4
-      '@unocss/transformer-variant-group': 0.62.4
-      '@unocss/vite': 0.62.4(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1))
-    optionalDependencies:
-      '@unocss/webpack': 0.62.4(rollup@4.24.0)(webpack@5.95.0)
-      vite: 5.4.8(@types/node@22.7.4)(terser@5.34.1)
-    transitivePeerDependencies:
-      - postcss
-      - rollup
-      - supports-color
-
   unplugin-ast@0.10.0(rollup@4.24.0)(webpack-sources@3.2.3):
     dependencies:
       '@antfu/utils': 0.7.10
@@ -15101,7 +15080,7 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-plugin-inspect@0.8.7(@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@4.24.0)(webpack-sources@3.2.3))(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1)):
+  vite-plugin-inspect@0.8.7(@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@3.29.5)(webpack-sources@3.2.3))(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(terser@5.34.1)):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.2(rollup@4.24.0)
@@ -15114,7 +15093,7 @@ snapshots:
       sirv: 2.0.4
       vite: 5.4.8(@types/node@22.7.4)(terser@5.34.1)
     optionalDependencies:
-      '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.24.0)(webpack-sources@3.2.3)
+      '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@3.29.5)(webpack-sources@3.2.3)
     transitivePeerDependencies:
       - rollup
       - supports-color

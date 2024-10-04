@@ -54,7 +54,7 @@ export function useProviders(currentProvider: string) {
       label: 'Logto',
       name: 'logto',
       disabled: Boolean(currentProvider === 'logto'),
-      icon: 'i-arcticons-netiq-advanced-authentication',
+      icon: 'i-tabler-letter-l',
     },
     {
       label: 'Generic OIDC',
